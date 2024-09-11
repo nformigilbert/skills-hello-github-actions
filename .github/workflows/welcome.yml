@@ -4,9 +4,9 @@ on:
     types: [opened]
 permissions:
   pull-requests: write
-job:
+jobs:
   build:
     name: Post welcome comment
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
  
